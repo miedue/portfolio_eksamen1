@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  line-height: 1.6;
+}
+
+p {
+  max-width: 65ch;
+  padding-right: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Side 1 */
+
+.splash {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(billeder/whitedove_signet-copy_1.webp);
+  background-repeat: repeat;
+}
+h1 {
+  padding-block: 20px;
+  color: rgb(229, 59, 195);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: xxx-large;
+  background-color: rgb(159, 240, 155);
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+/* Side 2 portfolio */
+
+img {
+  object-fit: fill;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Grundlæggende INDHOLD */
+.grid_5-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.element100 {
+  display: inline;
+  grid-template-rows: 5fr;
+  inline-size: 100px;
+  gap: 20px;
+}
+
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+}
+
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Side 3 */
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  background-color: blueviolet;
+  color: rgb(219, 240, 30);
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  padding: auto;
+}
+
+.col {
+  color: blueviolet;
+}
+
+/* Footer */
+footer p {
+  max-width: none;
+  position: sticky;
+  top: 100vh;
+  margin-left: 150px;
+
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(235, 103, 213);
+  letter-spacing: 2px;
+  background-color: aqua;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Navigation */
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(218, 17, 101, 0.319);
+  font-size: x-large;
+  background-position: 10%;
+  background-color: violet;
+}
+
+a:hover {
+  color: rgb(240, 29, 216);
+}
+
+header {
+  position: sticky;
+  padding: 16px;
+  overflow: scroll;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  overflow-x: auto;
+}
+/* Brødtekst på portfoliosiden */
+p {
+  text-align: center;
+  padding-left: 50px;
+  background-color: rgb(180, 245, 156);
+}
+
+p1 {
+  text-align: inherit;
+  padding-left: 50px;
+  background-color: rgb(9, 66, 115);
+  padding-right: 40px;
+  color: rgb(18, 243, 168);
+  text-transform: uppercase;
+  text-decoration: overline;
+  text-shadow: 3000px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h4 {
+  padding-block: 20px;
+  color: rgb(151, 239, 146);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: xxx-large;
+  letter-spacing: 4px;
+  background-color: rgb(110, 198, 239);
+}
+
+.col1 {
+  padding-left: 10%;
+}

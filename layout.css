@@ -1,0 +1,67 @@
+/* Skyer */
+
+#sky1_container {
+  position: fixed;
+  width: 10%;
+  aspect-ratio: 400/400;
+
+  top: -6vw;
+  left: 30%;
+  cursor: url(./animationsbilleder/sky1.svg);
+}
+
+#sky1_sprite {
+  background-image: url(./animationsbilleder/sky1.svg);
+  background-size: cover;
+  width: 200%;
+  height: 200%;
+}
+
+#sky2_container {
+  position: fixed;
+  width: 10%;
+  aspect-ratio: 300/300;
+
+  top: -1vw;
+  left: 60%;
+  cursor: pointer;
+}
+
+#sky2_sprite {
+  background-image: url(./animationsbilleder/sky1.svg);
+  background-size: cover;
+  width: 350%;
+  height: 350%;
+}
+
+.fald_animation {
+  animation-name: fald_animation_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fald_animation_kf {
+  from {
+    transform: translatey(0);
+  }
+  to {
+    transform: translatey(63vw);
+  }
+}
+
+.fald2_animation {
+  animation-name: fald_animation_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fald2_animation_kf {
+  from {
+    transform: translatey(0);
+  }
+  to {
+    transform: translatey(63vw);
+  }
+}
